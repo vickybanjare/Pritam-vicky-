@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    background-color: #fff;
+}
+
+.bottom-header .green{
+    color: green;
+}
+
+.bottom-header ul .green a{  
+    color: green;
+}
+
+.top-header .contact span{
+    color: green;
+}
+
+.bottom-header i{
+    color: green;
+}
+
+.header .glyphicol{
+    color: green;
+}
+
+.header .top-header a{
+    color: gray;
+    font-size: 15px;
+}
+
+.header .top-header .contact{
+    position: relative;
+    top: 22px;
+}
+
+.header .top-header{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.header .top-header .icon{
+    font-size: 18px;
+    color: #cec1c1;
+}
+.header .top-header .icon span{
+    margin-left: 22px;
+}
+
+.header .bottom-header{
+    width: 76%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.header .bottom-header ul button:hover{
+    background-color: gray;
+}
+
+/* haeder complete */
+
+.second{
+    width: 100%;
+    height: 600px;
+    background-image: url("../img/blog/bg_image_1.jpg");
+    background-size: cover;
+}
+
+.second .banner{
+    color: #fff;
+    margin-top: 250px;
+    text-align: center;
+}
+
+.second .banner button:hover{
+    background-color: gray;
+}
+
+.second .banner p{
+    font-size: 22px;
+}
+.second .banner h1{
+    font-size: 55px;
+    position: relative;
+    top: -18px;
+}
+
+/*  */
+
+.medium{
+    width: 100%;
+}
+
+.medium .center{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.medium .center .box{
+    position: relative;
+    top: -30px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px gray;
+}
+
+.medium .center .box p{
+    margin-right: 22px;
+}
+
+.medium .center .box span{
+    color: red;
+    font-size: 50px;
+    float: left;
+    margin: 15px 15px;
+}
+
+.medium .center p{
+    color: black;
+    font-size: 25px;
+    float: right;
+}
+
+
+.medium .center .left{
+    margin-top: 55px;
+}
+
+.medium .center .left p{
+    font-size: 16px;
+    font-weight: 100;
+    color: gray;
+    letter-spacing: 0.5px;
+}
+
+.medium .center .left a{
+    margin-top: 35px;
+}
+
+.medium .center .left a:hover{
+   background-color: gray;
+}
+
+.medium .center .right img{
+    width: 375px;
+    margin-top: 40px;
+}
+
+
+/* doctor start */
+
+.doctors{
+    width: 100%;
+    text-align: center ;
+    background-color: gray;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+
+.doctors h1{
+    margin: 40px 0;
+    font-size: 40px;
+}
+
+.doctors .center{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.doctors .center .box1{
+    text-align: left;
+    border: 0.5px solid black;
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.doctors .center .box1 .cover{
+    width: 260px;
+    height: 250px;
+    position: relative;
+    left: -20px;
+}
+
+.doctors .center .box1 img{
+    width: 100%;
+}
+
+.doctors .center .box1 h3 ,.doctors .center .box1 h6{
+    margin-left: 15px;
+}
+
+.doctors .center .box1:hover .content{
+    top: 0;
+}
+
+.doctors .center .box1 .content{
+    color: #fff;
+    background: rgba(0,0,0,0.6);   /* background: rgba(0,255,150,0.8);*/
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 100%;
+    right: 0;
+    height: 100%;
+    padding: 70px;
+    font-size: 40px;
+    box-sizing: border-box;
+    transition: all 0.2s;
+}
+
+
+/* news start */
+
+.news{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.news h2{
+    font-size: 35px;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.news .center{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.news .center .box{
+    width: 90%;
+    float: left;
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+
+.news .center .box h3{
+    font-size: 19px;
+    margin-left: 18px;
+}
+
+.news .center .box .left{
+    float: left;
+    width: 100px;
+}
+
+.news .center .box .left img{
+    width: 55%;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 30px;
+    position: relative;
+    top: -10px;
+}
+
+.news .center .box .right{
+    width: 60%;
+    float: right;
+    position: relative;
+    top: 2px;
+    right: 30px;
+    bottom: 15px;
+}
+
+.news .center .box img{
+    width: 100%;
+}
+
+/* appontment start */
+
+.page-section{
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+    margin-top: 160px;
+}
+
+.page-section h1{
+    margin: 50px auto;
+}
+
+.page-section .main-form .wow{
+    margin-bottom: 30px;
+}
+
+.page-section .main-form .mail{
+    margin-top: -20px;
+}
+
+.page-section .main-form .custom-select{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    position: relative;
+    top: -17px;
+}
