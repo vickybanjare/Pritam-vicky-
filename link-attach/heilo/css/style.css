@@ -1,0 +1,332 @@
+body{
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+
+
+/* navbar start */
+
+
+#mynavigation{
+    background: none;
+    width: 100%;
+    border: none;
+    position: absolute;
+    z-index: 1;
+}
+
+
+#mynavigation .navbar-toggle{
+    display: block;
+    border: 0 ;
+
+}
+
+#mynavigation .navbar-brand{
+    color: #ffffff;
+}
+
+
+#mynavigation ul li a{
+    color: #ffffff;
+} 
+
+
+
+#mynavigation .navbar-toggle:hover{
+    background: none;
+    cursor: pointer;
+}
+
+
+#mynavigation .navbar-header{
+    float: none;
+    color: #ffffff;
+}
+
+#mynavigation .navbar-header .icon-bar-left{
+    float: left;
+}
+
+
+#mynavigation .navbar-header .icon-right{
+    float: right;
+    position: relative;
+    top: -3px;
+    padding-left: 10px;
+}
+
+
+
+#mynavigation .navbar-right{
+    float: left !important;
+}
+
+.mycontainer{
+    padding: 0px;
+    color: #ffffff;
+}
+
+
+/* carousel start */
+
+
+.my-container{
+    color: #ffffff;
+    padding: 0;
+}
+
+.carousel .item{
+    background-image: url("../img/1.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.carousel .item-2{
+    background-image: url("../img/2.jpg");
+}
+
+.carousel .item-3{
+    background-image: url("../img/3.jpg");
+}
+
+.carousel .item-4{
+    background-image: url("../img/4.jpg");
+}
+
+.carousel .item-5{
+    background-image: url("../img/5.jpg");
+}
+
+
+/* banner start */
+
+
+.banner{
+    text-align: center;
+    max-width: 20%;
+    min-width: 60%;
+    position: absolute;
+    left: 20%;
+    top: 40%;
+    z-index: 20;
+
+}
+
+.banner p{
+    font-weight: 200;
+    letter-spacing: 4px;
+}
+
+.banner hr{
+    width: 50%;
+}
+
+.banner h1{
+    font-size: 80px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+
+
+/* two-section start */
+
+
+.two-section{
+    padding: 50px 0;
+
+}
+
+.two-section img{
+    width: 100%;
+}
+
+.two-section .left, .two-section .right{
+    background-color: #fff;
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+
+}
+
+.two-section h6{
+    letter-spacing: 3px;
+    color: gray;
+    font-weight: 300;
+    margin-bottom: 8px;
+    margin-top: 40px;
+}
+
+
+.two-section hr{
+    color: gray;
+    height: 0.5px;
+    width: 40%;
+    margin: 0 auto;
+}
+
+
+.two-section h1{
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 5px;
+    
+}
+
+
+.two-section p{
+    text-align: left;
+    padding: 25px 30px;
+    font-size: 13px;
+    color: gray;
+}
+
+.two-section button{
+    width: 150px;
+    height: 40px;
+    background: none;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border: 2px solid #dfdfdf;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     
+}      
+
+
+/* full quote start */
+
+
+.full-quate{
+    text-align: center;
+    background-image: url("../img/1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    padding: 60px 0;
+}
+
+
+.full-quate p, .four-image p{
+    letter-spacing: 2px;
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+
+.full-quate hr, .four-image hr{
+    width: 40%;
+}
+
+
+.full-quate h5, .four-image h5{
+    font-size: 30px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+
+/* four section start */
+
+
+.four-image{
+    padding: 10px 0;
+}
+
+
+.four-image h5{
+    margin-bottom: 50px;
+}
+
+
+.four-image img{
+    width: 100%;
+    margin-bottom: 8%;
+    border: 10px solid #fff;
+}
+
+
+.four-image .left{
+    float: left;
+}
+
+
+.four-image .right{
+    float: right;
+}
+
+
+
+/* footer start */
+
+
+.footer{
+    text-align: center;
+    background-color: black;
+    color: gray;
+    padding: 9px 0;
+}
+
+.footer a{
+    color: gray;
+}
+
+
+.footer .fa{
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+/* media start */
+
+
+@media (max-width:798px){
+
+    .my-collapse{
+        padding-right: 15px;
+        padding-left: 15px;
+        border-top: 1px solid #fff;
+    }
+
+
+    .full-quate p, .four-image p{
+        letter-spacing: 3px;
+        font-size: 10px;
+    }
+
+    .full-quate hr, .four-image hr{
+        width: 60%;
+    }
+
+    .full-quate h5, .four-image h5{
+        font-size: 20px;
+    }
+
+}
+
+
+@media (max-width:992px){
+
+    
+    .banner p{
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+
+    .banner h1{
+        font-size: 60px;
+    }
+
+    .two-section .left, .two-section .right{
+        width: 100%;
+    }
+
+    .two-section .right{
+        margin-left: 0px;
+    }
+   
+
+}
